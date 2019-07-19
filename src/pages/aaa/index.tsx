@@ -9,6 +9,13 @@ const successClick = () => {
   message.success('有人点击啦')
 }
 
+let bbb = 0
+
+const plusClick = () => {
+  bbb += 1
+  message.success(`bbb now is ${bbb}`)
+}
+
 export default function () {
   const errorClick = () => {
     message.error('有人点击啦')
@@ -29,6 +36,9 @@ export default function () {
       <br/>
       <Button type="primary" onClick={successClick}>点击一下 - success</Button>
       <Button type="danger" onClick={errorClick}>点击一下 - error</Button>
+
+      <br/>
+      <Button type="primary" onClick={plusClick}>点击一下 - 变量自增</Button>
     </div>
   )
 }
