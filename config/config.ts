@@ -102,6 +102,12 @@ export default {
           component: './Welcome',
         },
         {
+          path: '/aaa',
+          name: 'aaa',
+          icon: 'smile',
+          component: './aaa',
+        },
+        {
           component: './404',
         },
       ],
