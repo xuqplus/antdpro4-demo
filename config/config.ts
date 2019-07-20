@@ -90,6 +90,16 @@ export default {
   // umi routes: https://umijs.org/zh/guide/router.html
   routes: [
     {
+      path: '/bbb',
+      component: '../layouts/UserLayout',
+      routes: [
+        {
+          path: '/bbb/index',
+          component: './bbb',
+        },
+      ],
+    },
+    {
       path: '/',
       component: '../layouts/AppBasicLayout',
       // component: '../layouts/AppBasicLayout',
