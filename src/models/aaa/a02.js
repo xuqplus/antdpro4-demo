@@ -1,3 +1,5 @@
+import { queryA02 } from '@/services/a02';
+
 export default {
   namespace: 'aaa.a02',
   state: {
@@ -11,6 +13,15 @@ export default {
         username: state.username,
         message: message,
       };
+    },
+  },
+  effects: {
+    *a02(_, { call, put }) {
+      const response = yield call(queryA02);
+      yield put({
+        type: 'aFunction',
+        payload: response,
+      });
     },
   },
 };
