@@ -5,6 +5,7 @@ export default {
   'BLOCK_NAME.login.message-invalid-verification-code': '验证码错误',
   'BLOCK_NAME.login.tab-login-credentials': '账户密码登录',
   'BLOCK_NAME.login.tab-login-mobile': '手机号登录',
+  'BLOCK_NAME.login.tab-login-email': '邮箱登录',
   'BLOCK_NAME.login.remember-me': '自动登录',
   'BLOCK_NAME.login.forgot-password': '忘记密码',
   'BLOCK_NAME.login.sign-in-with': '其他登录方式',
@@ -71,4 +72,4 @@ export default {
   'BLOCK_NAME.option.B': '同事乙',
   'BLOCK_NAME.option.C': '同事丙',
   'BLOCK_NAME.navBar.lang': '语言',
-};
+}

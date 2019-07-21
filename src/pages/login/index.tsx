@@ -150,7 +150,7 @@ class PAGE_NAME_UPPER_CAMEL_CASE extends Component<
               }}
             />
           </Tab>
-          <Tab key="mobile" tab={formatMessage({ id: 'BLOCK_NAME.login.tab-login-mobile' })}>
+          <Tab key="mobile" tab={formatMessage({ id: 'BLOCK_NAME.login.tab-login-email' })}>
             {status === 'error' &&
               loginType === 'mobile' &&
               !submitting &&
@@ -200,8 +200,7 @@ class PAGE_NAME_UPPER_CAMEL_CASE extends Component<
           <div className={styles.other}>
             <FormattedMessage id="BLOCK_NAME.login.sign-in-with" />
             <Icon type="alipay-circle" className={styles.icon} theme="outlined" />
-            <Icon type="taobao-circle" className={styles.icon} theme="outlined" />
-            <Icon type="weibo-circle" className={styles.icon} theme="outlined" />
+            <Icon type="github" className={styles.icon} theme="outlined" />
             <Link className={styles.register} to="/user/register">
               <FormattedMessage id="BLOCK_NAME.login.signup" />
             </Link>

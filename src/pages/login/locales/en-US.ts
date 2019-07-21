@@ -6,6 +6,7 @@ export default {
   'BLOCK_NAME.login.message-invalid-verification-code': 'Invalid verification code',
   'BLOCK_NAME.login.tab-login-credentials': 'Credentials',
   'BLOCK_NAME.login.tab-login-mobile': 'Mobile number',
+  'BLOCK_NAME.login.tab-login-email': 'Email',
   'BLOCK_NAME.login.remember-me': 'Remember me',
   'BLOCK_NAME.login.forgot-password': 'Forgot your password?',
   'BLOCK_NAME.login.sign-in-with': 'Sign in with',

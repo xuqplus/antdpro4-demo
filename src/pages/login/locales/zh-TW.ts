@@ -6,6 +6,7 @@ export default {
   'BLOCK_NAME.login.tab-login-credentials': '賬戶密碼登錄',
   'BLOCK_NAME.login.tab-login-mobile': '手機號登錄',
   'BLOCK_NAME.login.remember-me': '自動登錄',
+  'BLOCK_NAME.login.tab-login-email': '郵箱登錄',
   'BLOCK_NAME.login.forgot-password': '忘記密碼',
   'BLOCK_NAME.login.sign-in-with': '其他登錄方式',
   'BLOCK_NAME.login.signup': '註冊賬戶',
