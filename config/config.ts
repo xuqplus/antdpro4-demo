@@ -101,6 +101,16 @@ export default {
       ],
     },
     {
+      path: '/login',
+      component: '../layouts/UserLayout',
+      routes: [
+        {
+          path: '/login/index',
+          component: './login',
+        },
+      ],
+    },
+    {
       path: '/',
       component: '../layouts/AppBasicLayout',
       // component: '../layouts/AppBasicLayout',
