@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { FormComponentProps } from 'antd/es/form';
 import classNames from 'classnames';
 import LoginContext, { LoginContextProps } from './LoginContext';
-import LoginItem, { LoginItemProps } from './LoginItem';
+import LoginItem, { LoginItemProps, LoginItemType } from './LoginItem'
 
 import LoginSubmit from './LoginSubmit';
 import LoginTab from './LoginTab';
@@ -35,6 +35,8 @@ class Login extends Component<LoginProps, LoginState> {
   public static Password: React.FunctionComponent<LoginItemProps>;
 
   public static Mobile: React.FunctionComponent<LoginItemProps>;
+
+  public static Email: React.FunctionComponent<LoginItemProps>;
 
   public static Captcha: React.FunctionComponent<LoginItemProps>;
 
